@@ -71,14 +71,27 @@ let hogwarts = [
   },
 ];
 
-
-
+ 
+// ~~~~~~~~~~~~~~~~~~~~~~~~ Task 1 ~~~~~~~~~~~~~~~~~~~~~~~~  
 
 for (const {firstName,lastName, house} of hogwarts) {
+
   if (house === "Gryffindor") {
     console.log(`${firstName} ${lastName}`);
   } 
 
   }
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~ Taske 2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+  for (const {pet,occupation,firstName,lastName} of hogwarts) {
+    
+    if ( occupation === 'Teacher' && pet != null) {
+      console.log(`${firstName} ${lastName}`);
+    }
+  }
+
+
 
 
